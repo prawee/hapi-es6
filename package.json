@@ -12,7 +12,7 @@
   "description": "This repository is Initial API with Hapi support ES6.",
   "main": "index.js",
   "scripts": {
-    "start": "node bootstrap.js"
+    "start": "node app.js"
   },
   "author": "Prawee Wongsa",
   "license": "MIT",
