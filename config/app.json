@@ -1,0 +1,7 @@
+{
+    "@extends": [
+        "connections.json",
+        "plugins.json",
+        "routes.json"
+    ]
+}
