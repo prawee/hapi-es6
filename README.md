@@ -5,12 +5,12 @@ This repository is Initial API with Hapi support ES6.
 ```bash
 git clone http://github.com/prawee/hapi-es6.git
 cd hapi-es6
-npm install
+npm install | yarn install
 ```
 
 ### Run
 ```bash
-npm start
+npm start | nodemon app.js
 ```
 
 
