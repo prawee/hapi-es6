@@ -1,10 +1,14 @@
-/**
+/*
+ * @Author: Prawee Wongsa <prawee@hotmail.com>; 
+ * @Date: 2017-03-24 12:18:33 
+ * @Last Modified by: Prawee Wongsa
+ * @Last Modified time: 2017-09-07 12:30:47
  * Import libraries for make services
  */
 import Hapi from 'hapi';
 import Inert from 'inert';
-import RestHapi from 'rest-hapi';
 import Mongoose from 'mongoose';
+
 /**
  * Create server instance and make connection
  */
@@ -17,25 +21,12 @@ server.connection({
 /**
  * Plugin and Route 
  */
-server.register([Inert, {
-  register: RestHapi,
-  options: {
-    mongoose: Mongoose
-  }
-}
-], (err) => {
+server.register([Inert], (err) => {
   if (err) {
     throw err;
   }
-  // server.route({
-  //   method: 'GET',
-  //   path: '/',
-  //   handler: (request, reply) => {
-  //     reply.file('./public/index.html');
-  //   }
-  // });
 
-  /**
+/**
  * Start services
  */
   server.start(err => {
