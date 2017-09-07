@@ -1,0 +1,7 @@
+{
+    "registrations": [{
+        "plugin": "inert"
+    }, {
+        "plugin": "vision"
+    }]
+}
