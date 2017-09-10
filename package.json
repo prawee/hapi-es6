@@ -10,7 +10,7 @@
     "url": "git+https://github.com/prawee/hapi-es6.git"
   },
   "description": "This repository is Initial API with Hapi support ES6.",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "start": "node app.js"
   },
