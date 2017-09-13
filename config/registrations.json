@@ -1,0 +1,11 @@
+{
+    "registrations": [{
+        "plugin": "inert"
+    }, {
+        "plugin": "vision"
+    }, {
+        "plugin": "../routes"
+    }, {
+        "plugin": "../plugins"
+    }] 
+}
