@@ -2,6 +2,6 @@
 # @Date: 2017-09-07 14:37:49 
 # @Last Modified by:   Prawee Wongsa 
 # @Last Modified time: 2017-09-07 14:37:49 
-runtime: nodejs
-env: flex
+runtime: nodejs8
+#env: flex
 service: default
